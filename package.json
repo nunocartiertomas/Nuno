@@ -1,0 +1,20 @@
+{
+  "name": "Nuno",
+  "displayName": "asugoAccelerator",
+  "description": "Extension to create templates for Salesforce metadata in a more complete way",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "apex",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
